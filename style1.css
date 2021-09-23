@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+body {
+  color: white;
+  background-color: #333643;
+}
+#intro {
+  background-image: url("img/background.png");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fill 0.5s ease forwards 3.1s;
+}
+#intro p {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-65%, -50%);
+  color: #252734;
+  animation: show 0.5s ease-in 3.5s forwards;
+}
+#_link {
+  color: #252734;
+  animation: show 0.5s ease-in 3.5s forwards;
+}
+.QPXHmhAP_0 {
+  stroke-dasharray: 791 793;
+  stroke-dashoffset: 792;
+  animation: QPXHmhAP_draw 2997ms linear 0ms forwards;
+}
+.QPXHmhAP_1 {
+  stroke-dasharray: 462 464;
+  stroke-dashoffset: 463;
+  animation: QPXHmhAP_draw 2997ms linear 0ms forwards;
+}
+.QPXHmhAP_2 {
+  stroke-dasharray: 308 310;
+  stroke-dashoffset: 309;
+  animation: QPXHmhAP_draw 2997ms linear 1ms forwards;
+}
+.QPXHmhAP_3 {
+  stroke-dasharray: 493 495;
+  stroke-dashoffset: 494;
+  animation: QPXHmhAP_draw 2997ms linear 1ms forwards;
+}
+.QPXHmhAP_4 {
+  stroke-dasharray: 530 532;
+  stroke-dashoffset: 531;
+  animation: QPXHmhAP_draw 2997ms linear 2ms forwards;
+}
+.QPXHmhAP_5 {
+  stroke-dasharray: 738 740;
+  stroke-dashoffset: 739;
+  animation: QPXHmhAP_draw 2997ms linear 2ms forwards;
+}
+.QPXHmhAP_6 {
+  stroke-dasharray: 462 464;
+  stroke-dashoffset: 463;
+  animation: QPXHmhAP_draw 2997ms linear 3ms forwards;
+}
+@keyframes QPXHmhAP_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes QPXHmhAP_fade {
+  0% {
+    stroke-opacity: 1;
+  }
+  94.44444444444444% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+    color: white;
+  }
+}
+#hero {
+  min-height: 100vh;
+}
+#hero h2 {
+  margin-top: 8rem;
+}
+#hero p {
+  font-size: 1.1rem;
+}
+.social-icon{
+  position: absolute;
+  bottom: -97%;
+}
+.social-icon a {
+  color: white;
+  font-size: 1.1rem;
+}
+.social-icon svg{
+  margin-right: .7em;
+  margin-bottom: 10px;
+}
+#profil{
+  margin-top: 5rem;
+}
+#about hr, #skill hr, #contact hr{
+  width: 35%;
+  height: 3px;
+  color: aqua;
+  margin: 0 auto;
+  opacity: 100;
+}
+#about{
+  min-height: 100vh;
+  padding-top: 80px;
+}
+#skill{
+  min-height: 100vh;
+  padding-top: 80px;
+}
+#contact{
+  min-height: 100vh;
+  padding-top: 15rem;
+}
